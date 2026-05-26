@@ -1,4 +1,5 @@
-# MultiSaturator
+# WaveTerrain synthesis
+## S.P.A Ghetto
 
 Progetto audio-visivo interattivo basato su wave terrain synthesis, controllato via sensori fisici (joystick + accelerometro). Il segnale audio generato in SuperCollider viene processato da un plugin VST3 custom sviluppato in JUCE, e visualizzato in tempo reale con Processing.
 
