@@ -87,18 +87,3 @@ Tienilo attivo per tutta la sessione.
 s.boot;
 ```
 poi esegui il blocco principale `( ... )`
-
----
-
-## Struttura del progetto
-MultiSaturator/
-├── Arduino/
-│   ├── sketch_may20a/      # Sketch Arduino (joystick + accelerometro)
-│   └── bridge.py           # Bridge seriale → OSC
-├── JUCE/
-│   └── multiSaturator/     # Sorgenti plugin VST3
-│       └── Source/
-├── Processing/
-│   └── TerrainSynth3D_processing/  # Visualizzazione grafica OSC
-└── SuperCollider/
-└── waveterrain.scd  # Engine audio principale
