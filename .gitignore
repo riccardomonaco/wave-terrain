@@ -1,0 +1,10 @@
+# Ignora le cartelle pesanti autogenerate da JUCE
+/JUCE/multiSaturator/Builds/
+/JUCE/multiSaturator/JuceLibraryCode/
+
+# Ignora eventuali file di configurazione locale utente
+/JUCE/multiSaturator/*.user
+
+# Ignora file di sistema
+.DS_Store
+Thumbs.db
